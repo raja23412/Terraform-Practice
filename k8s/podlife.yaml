@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: life-pod
+spec: 
+    containers:
+     - name: life 
+       image: nginx
+       command: ["sh", "-c", "exit 0"]
